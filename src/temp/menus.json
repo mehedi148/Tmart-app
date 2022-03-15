@@ -1,0 +1,139 @@
+{
+    "menus": [
+        {
+            "id": 1,
+            "text": "Home",
+            "class": "drop",
+            "link": "/",
+            "dropdown": {},
+            "mega_dropdown": {}
+        },
+        {
+            "id": 2,
+            "text": "Portfolio",
+            "class": "drop",
+            "link": "/portfolio",
+            "dropdown":
+                {
+                    "id":3,
+                    "text":"portfolio details",
+                    "class":"mega__title",
+                    "link":"/portfolio",
+                    "dropdown":{},
+                    "mega_dropdown":{}
+                },
+                {
+                    "id":4,
+                    "text":"portfolio list",
+                    "class":"mega__title",
+                    "link":"/portfolio",
+                    "dropdown":{},
+                    "mega_dropdown":{}
+                }
+            ],
+            "mega_dropdown":{}
+            
+        }
+        {
+            "id": 5,
+            "text": "Shop",
+            "class": "drop",
+            "link": "./shop",
+            "dropdown": [
+                {
+                    "id": 6,
+                    "text": "shop Layout",
+                    "class": "mega_title",
+                    "link": "/shop",
+                    "dropdown":[],
+                    "mega_dropdown": [
+                        {
+                            "id": 7,
+                            "text": "Deafult shop",
+                            "class": "mega_item",
+                            "link": "/shop",
+                            "dropdown": {},
+                            "mega_dropdown": {}
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Product details layout",
+                    "class": "mega_item",
+                    "link": "/shop",
+                    "dropdown": {},
+                    "mega_dropdown": [
+                        {
+                            "id": 9,
+                            "text": "tab style one",
+                            "class": "drop",
+                            "link": "/shop",
+                            "dropdown": {},
+                            "mega_dropdown": {}
+                        }
+                    ]
+                }
+            ],
+            "mega_dropdown": {}
+        },
+        {
+            "id": 10,
+            "text": "Pages",
+            "class": "drop",
+            "link": "./pages",
+            "dropdown":
+                {
+                    "id": 11,
+                    "text": "about",
+                    "class": "",
+                    "link": "./about",
+                    "dropdown": {},
+                    "mega_dropdown": {}
+                },
+                {
+                    "id": 12,
+                    "text": "testimonial",
+                    "class": "",
+                    "link": "#",
+                    "dropdown": {},
+                    "mega_dropdown": [
+                        {
+                            "id": 13,
+                            "text": "Customar review",
+                            "class": "",
+                            "link": "#",
+                            "dropdown": {},
+                            "mega_dropdown": {}
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "text": "Shop",
+                    "class": "",
+                    "link": "#",
+                    "dropdown": {},
+                    "mega_dropdown": {}
+                },
+                {
+                    "id": 15,
+                    "text": "Shop slidbar",
+                    "class": "",
+                    "link": "/",
+                    "dropdown": {},
+                    "mega_dropdown": {}
+                },
+                {
+                    "id": 16,
+                    "text": "Product details",
+                    "class": "",
+                    "link": "/product-details.html",
+                    "dropdown": {},
+                    "mega_dropdown": {}
+                },
+}
+            ]
+        }
+    ]
+}
