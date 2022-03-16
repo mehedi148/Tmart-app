@@ -13,7 +13,7 @@
             "text": "Portfolio",
             "class": "drop",
             "link": "/portfolio",
-            "dropdown":
+            "dropdown":[
                 {
                     "id":3,
                     "text":"portfolio details",
@@ -31,9 +31,8 @@
                     "mega_dropdown":{}
                 }
             ],
-            "mega_dropdown":{}
-            
-        }
+            "mega_dropdown": {}
+        },
         {
             "id": 5,
             "text": "Shop",
@@ -55,6 +54,7 @@
                             "dropdown": {},
                             "mega_dropdown": {}
                         }
+                    
                     ]
                 },
                 {
@@ -81,8 +81,8 @@
             "id": 10,
             "text": "Pages",
             "class": "drop",
-            "link": "./pages",
-            "dropdown":
+            "link": "/pages",
+            "dropdown":[
                 {
                     "id": 11,
                     "text": "about",
@@ -131,9 +131,17 @@
                     "link": "/product-details.html",
                     "dropdown": {},
                     "mega_dropdown": {}
-                },
-}
+                }
             ]
+        },
+        {
+            "id": 17,
+            "text": "Contact",
+            "class": "",
+            "link": "/contact",
+            "dropdown": {},
+            "mega_dropdown": {}
         }
+
     ]
 }
